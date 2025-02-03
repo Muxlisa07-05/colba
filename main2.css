@@ -1,0 +1,93 @@
+.main{
+    width: 100%;
+    /* max-width: 1344px; */
+    padding: 100px 48px 128px 48px;
+}
+
+
+.main2{
+    display: flex;
+    
+    gap: 40px;
+} 
+
+/* .main2 .strelka{
+    margin-top: 450px;
+    padding: 0;
+} */
+
+.main3 h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78.72x;
+    color: #212831;
+    padding-bottom: 24px;
+}
+
+.main3 span{
+    color: #34D4F2;
+}
+
+.main3 p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #212831;
+}
+
+.main3 p{
+    padding-bottom: 24px;
+}
+
+.fanlar{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34.44px;
+    color: #212831;
+}
+
+.main3 .Kimyo{
+    width: 227px;
+    border-radius: 24px;
+    padding: 16px 28px;
+    background-color: #84D3FF80;
+    color: #008CDA;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    border: none;
+}
+
+.main3 .Biologiya{
+    width: 227px;
+    border-radius: 24px;
+    padding: 16px 28px;
+    background-color: #8674F31F;
+    color: #3A2E83;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    border: none;
+}
+
+.btns2{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    /* align-items: center; */
+}
+
+
+
+@media (max-width: 1240px) {
+    .main2{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 730px) {
+    img{
+        width: 545px;
+        height: 393px;
+    }
+}
